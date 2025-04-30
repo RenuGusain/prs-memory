@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'prs-inmemory' // Replace with your Docker image name
         IMAGE_TAG = 'latest'
-        DOCKER_REGISTRY = 'https://hub.docker.com/repositories/rgusain' // e.g., docker.io/yourusername or ECR repo
+        DOCKER_REGISTRY = 'rgusain' // e.g., docker.io/yourusername or ECR repo
     }
 
     stages {
