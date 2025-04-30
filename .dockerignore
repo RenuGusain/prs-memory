@@ -1,0 +1,16 @@
+# Ignore IDE configuration files
+.idea/
+
+# Ignore Gradle wrapper files
+.gradle/
+
+# Ignore build directory (output of Gradle build)
+build/
+
+# Ignore version control directories (e.g., Git)
+.git/
+.gitignore
+
+# Ignore any other unnecessary files or directories
+*.md
+*.log
