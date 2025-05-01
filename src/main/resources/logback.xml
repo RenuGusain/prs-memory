@@ -20,7 +20,7 @@
     <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
 
         <!-- Where your latest active log is written -->
-        <file>/var/log/app/inmemory/application.log</file>
+        <file>app/inmemory/logs/application.log</file>
 
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- Directory and pattern for rolled files -->
